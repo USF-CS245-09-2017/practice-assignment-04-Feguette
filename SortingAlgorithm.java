@@ -9,4 +9,10 @@
 public interface SortingAlgorithm {
 
 	void sort(int [] a);
+
+	public static void print(int[] a) {
+	    for (int value: a)
+            System.out.print(value + " ");
+        System.out.println();
+    }
 }
